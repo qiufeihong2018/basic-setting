@@ -1,0 +1,21 @@
+[
+  {
+    "level": "fatal",
+    "restrict": [
+      "^(rm|sudo rm)",
+      "fatal"
+    ]
+  },
+  {
+    "level": "danger",
+    "restrict": [
+      "danger"
+    ]
+  },
+  {
+    "level": "warning",
+    "restrict": [
+      "warning"
+    ]
+  }
+]
